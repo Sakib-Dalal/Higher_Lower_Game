@@ -1,27 +1,24 @@
 # Higher Lower Game
 
-Welcome to the Higher Lower Game! Test your knowledge of social media follower counts in this interactive guessing game. Compare two profiles, guess which one has a higher follower count, and see how many correct guesses you can make in a row.
+Welcome to the Higher Lower Game! This Python script lets you guess which Instagram account has more followers between two randomly chosen profiles. The game displays information about each profile, and your goal is to determine which one has the higher number of followers.
 
-## Author
 
-This code is authored by Sakib Dalal.
+## How to Play
+
+1. Run the `main.py` script.
+2. Compare two profiles presented to you.
+3. Enter 'A' if you think the first profile has more followers, or 'B' if you think the second one has more.
+4. The game will inform you if your guess is correct, and you can continue playing.
 
 ## Features
 
-- Interactive guessing game
-- Compare social media profiles
-- Randomly selected profiles for each round
-
-## Usage
-
-1. Run the `main.py` script.
-2. Compare two profiles and guess which one has a higher follower count.
-3. See if your guess is correct.
-4. Continue playing and try to achieve the highest score.
+- Randomly selects Instagram profiles for comparison.
+- Displays information about each profile, including name, description, and country of origin.
+- Keeps track of your score as you play.
 
 ## Art
 
-The ASCII art logos enhance the visual appeal of the game and are stored in `art.py`.
+The ASCII art logos for the game and the versus comparison are stored in `art.py` and enhance the visual appeal of the game.
 
 ```python
 # art.py
@@ -45,6 +42,8 @@ vs = """
 |___/____(_)
 """
 
+```
+
 ## How to Run
 
 1. Clone the repository to your local machine:
@@ -67,14 +66,7 @@ vs = """
 
 ## Game Data
 
-The data for the profiles is stored in `gamedata.py`. Each profile includes the name, follower count, description, and country of origin.
-
-```python
-# gamedata.py
-data = [
-    # ... (list of profiles)
-]
-```
+The data for Instagram profiles is stored in `gamedata.py`, containing information such as the name, follower count, description, and country of origin.
 
 
 ---
